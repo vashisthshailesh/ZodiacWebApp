@@ -1,0 +1,145 @@
+
+.qsol textarea{
+	width: 160%;
+	min-height: 500px;
+	font-size: 20px;
+	margin-left: 190px;
+	padding-left:15px ;
+	padding-top: 15px; 
+}
+
+
+.qinputbody button{
+	margin-top: 45px;
+	margin-bottom: 70px;
+	font-size: 17px;
+	border-radius: 5px;
+	transition-duration: 0.4s;
+	margin-left: 70px;
+}
+.qinputbody textarea{
+	width:60%;
+	min-height: 160px;
+	margin-top: 40px;
+	margin-left: 150px;
+	font-size: 20px;
+	padding-left:15px ;
+	padding-top: 15px; 
+}
+
+.qinputbody button:hover{
+	background-color: #4CAF50;
+	color: white;
+}
+
+.Contestname{
+	width:150%;
+	border: 1px solid grey;
+	margin-left: 225px;
+	-webkit-box-shadow: 14px 10px 7px 3px rgba(0,0,0,0.26);
+-moz-box-shadow: 14px 10px 7px 3px rgba(0,0,0,0.26);
+box-shadow: 14px 10px 7px 3px rgba(0,0,0,0.26);
+}
+
+.Contestname input{
+	margin-left:90px;
+	width :45%;
+	border:black;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica,sans-serif;
+	font-size:14px;
+	color:rgba(0,0,0,0.73);
+	padding:18px 5px;
+	outline:none;
+
+}
+
+.Contestname button{
+	 text-align: center;
+	font-size: 15px;
+	padding-right:  25px;
+	border-radius: 5px;
+	border: 2px solid #4CAF50;
+	transition-duration: 0.4s;
+}
+
+.Contestname button:hover{
+	background-color: #4CAF50;
+	color: white;
+}
+
+.questionListStyle ul{
+	list-style-type: none;
+}
+
+hr {
+	width:215%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 3em 0;
+    padding: 0;
+}
+
+.questionListStyle li{
+	padding:15px 5px;
+	cursor: pointer;
+}
+.start{
+	background-image: url("banner1.png");
+	background-repeat: no-repeat;
+  	background-size: 1500px 500px; 
+  	height: 550px;
+
+}
+
+.questionListStyle li:hover{
+	transition-duration: 0.6s;
+	text-decoration: underline;
+	background-color: rgba(128,128,128,0.20) ;
+	-webkit-transform: scale(1.2)
+}
+
+.loginButtton{
+	margin-left: 890px;
+}
+
+.qbody{
+	border-color: black;
+	width:190%;
+	margin-left:100px;
+	margin-right: 99px;
+	margin-top: 85px;
+-webkit-box-shadow: 3px 7px 17px 30px rgba(89,87,89,1);
+-moz-box-shadow: 3px 7px 17px 30px rgba(89,87,89,1);
+box-shadow: 3px 7px 17px 30px rgba(89,87,89,1);
+
+}
+
+.qbody:empty { 
+    border: none;
+    box-shadow: none;
+}
+
+
+.Contestname ul::before{
+	content: "";
+}
+
+.Contestname ul{
+	list-style-type: none;
+	text-align: left;
+	margin:0;
+	padding:0;
+}
+
+.Contestname li{
+	padding:10px 5px;
+	cursor: pointer;
+}
+
+.Contestname li:hover{
+	text-decoration: underline;
+	background-color: rgba(128,128,128,0.20) ;
+}
